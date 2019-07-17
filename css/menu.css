@@ -107,4 +107,7 @@
 }
 
 .menu-wrap .menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
 }
