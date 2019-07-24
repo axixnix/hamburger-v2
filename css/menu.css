@@ -80,6 +80,12 @@
   transform: rotate(225deg);
 }
 
+/*show menu*/
+.menu-wrap .toggler:checked ~ .menu {
+  /*we are targetting the .menu-wrap when the toggler is checked, we are targetting the .menu inside*/
+  visibility: visible;
+}
+
 .menu-wrap .menu {
   position: fixed;
   top: 0;
